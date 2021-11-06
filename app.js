@@ -114,3 +114,84 @@
 //     document.write("<option>"+ phones[i] +"</option>");
 // }
 // document.write("/<select>");
+
+
+//Arrays and Loops
+// ques 1
+// var arr = [[],[]];
+
+// ques 2
+// var arr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+
+// ques 3
+// for(var i = 1; i <= 10; i++){
+//     document.write(`${i} <br>`);
+// }
+
+// ques 4
+// var table = +prompt("Enter a number to show its multiplication table");
+// var tableLength = +prompt("Enter length multiplication table");
+// document.write(`Multiplication table of ${table} of Length ${tableLength}`);
+// for(var i = 1; i <= tableLength; i++){
+//     document.write(`${table} x ${i} = ${table * i} <br>`);
+// }
+
+// ques 5
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for(var i = 0; i < fruits.length; i++){
+//     document.write(`${fruits[i]} <br> `);
+// }
+// document.write("<br>");
+// for(var i = 0; i < fruits.length; i++){
+//     document.write(`Element at index ${i} is ${fruits[i]} <br>`);
+// }
+
+// ques 6
+// a)
+// for(var i = 1; i <= 15; i++){
+//     document.write(`${i},`);
+// }
+// b)
+// for(var i = 10; i >= 1; i--){
+//     document.write(`${i},`);
+// }
+// c)
+// for(var i = 0; i <= 20; i = i+2){
+//     document.write(`${i},`);
+// }
+// d)
+// for(var i = 1; i <= 20; i = i+2){
+//     document.write(`${i},`);
+// }
+// e)
+// for(var i = 0; i <= 20; i = i+2){
+//     document.write(`${i}k,`);
+// }
+
+// ques 7
+// var arr = ["cake","apple pie","cookie","chips","patties"];
+// var search = prompt("What do you want to order?");
+// for(var i = 0; i < arr.length; i++){
+//     if(arr[i] == search){
+//         document.write(`${arr[i]} is <b>available</b> at index ${i} in our bakery`);
+//     }
+//     else{
+//         document.write(`We are sorry. ${search} is <b>not available</b> in our bakery.`);
+//         break;
+//     }
+// }
+
+// ques 8
+// var arr = [24,53,78,91,12];
+// document.write(`Array items ${arr} <br>`);
+// document.write(`Largest number is ${Math.max(...arr)}`);
+
+// ques 9
+// var arr = [24,53,78,91,12];
+// document.write(`Array items ${arr} <br>`);
+// document.write(`Smallest number is ${Math.min(...arr)}`);
+
+// ques 10
+// for(var i = 5; i <= 100; i = i+5){
+//     document.write(`${i},`);
+// }
