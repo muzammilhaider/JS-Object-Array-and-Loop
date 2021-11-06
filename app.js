@@ -113,7 +113,7 @@
 // for(var i = 0; i < phones.length; i++){
 //     document.write("<option>"+ phones[i] +"</option>");
 // }
-// document.write("/<select>");
+// document.write("</select>");
 
 
 //Arrays and Loops
